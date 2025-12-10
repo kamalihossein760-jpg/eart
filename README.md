@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<title>Product Page</title>
+<style>
+body {
+  background:#050811;
+  color:#b7d8ff;
+  font-family:sans-serif;
+  padding:90px;
+  font-size:34px;
+  text-align:center;
+}
+
+header {
+  font-size:3.2em;
+  margin-bottom:50px;
+  color:#4da3ff;
+}
+
+.container {
+  display:inline-block; 
+  text-align:center;
+  margin-top:20px;
+}
+
+.specs {
+  background:#0d1526;
+  padding:60px;
+  border-radius:25px;
+  width:620px;
+  font-size:34px;
+  line-height:2.4;
+}
+
+.specs p {
+  margin:25px 0;
+}
+
+.brand {
+  font-size:42px;
+  color:#00cfff;
+  margin-bottom:30px;
+  font-weight:bold;
+}
+</style>
+</head>
+<body>
+
+<header>Pooya Jahesh</header>
+
+<div class="container">
+  <div class="specs">
+    <p class="brand">SONY</p>
+    <p><strong>IP :</strong> 192.168.1.10</p>
+    <p><strong>Username :</strong> admin</p>
+    <p><strong>Password :</strong> 12345</p>
+    <p><strong>Model :</strong> DomeCam X1</p>
+  </div>
+</div>
+
+</body>
+</html>
